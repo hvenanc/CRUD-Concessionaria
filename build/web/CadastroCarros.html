@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang = "pt-br">
+    <head>
+        <title>Cadastro de Carros</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href ="estilos.css">
+    </head>
+    <body>
+        <h1>Cadastre aqui um veículo</h1>
+        
+        <a href="index.html"/><button class = "botao4">Voltar ao Menu Principal</button></a>
+        
+        <form method="post" action="CarrosServlet">
+            
+            Código <input type = "text" name = "codigo"/><br/>
+            Nome <input type = "text" name = "nome"/><br/>
+            Marca  <input type= "text" name = "marca"/><br/>
+            Ano de Fabricação  <input type = "text" name = "anoFab"/><br/>
+            Cor  <input type= "text" name = "cor"/><br/>
+            
+            <button type = "submit" class = "botao6"> Cadastrar </button>
+            
+            
+            
+        </form>
+    </body>
+</html>
